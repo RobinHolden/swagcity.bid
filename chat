@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="/css/chat.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/chat.js" defer></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/shopping">Shopping</a></li>
+            <li><a href="/chat" class="active">Chat</a></li>
+        </ul>
+    </nav>
+    <main id="main">
+        <h1>CryoChat</h1>
+        <div id="auth" class="center">
+            <input type="text" id="usernameBox" placeholder="Username (alphanum)" autofocus>
+            <input type="button" id="authbtn" value="Authenticate" onclick="loadChat();">
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+    font-family: Bahnschrift, Arial;
+    font-size: 16px;
+    margin: 0;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+a, a:visited {
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    padding: 30px;
+}
+
+h1, .center {
+    margin:auto;
+    display: block;
+    text-align:center
+}
+
+.bigimg {
+    width: 250px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display:flex;
+}
+
+nav ul li {
+    display: flex;
+}
+
+nav ul li a,
+nav ul li a:visited {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+nav ul li a:hover:not(.active){
+    background-color: #000;
+}
+
+nav ul li a.active {
+    background-color: #4CAF50;
+}

@@ -1,0 +1,10 @@
+#list {
+    margin-left: 20px;
+    paddding: 0;
+}
+
+#list li {
+    margin-bottom: 10px;
+    list-style-type: none;
+}
+
